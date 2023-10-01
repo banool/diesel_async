@@ -20,6 +20,8 @@ pub mod bb8;
 pub mod deadpool;
 #[cfg(feature = "mobc")]
 pub mod mobc;
+#[cfg(feature = "r2d2")]
+pub mod r2d2;
 
 /// The error used when managing connections with `deadpool`.
 #[derive(Debug)]
